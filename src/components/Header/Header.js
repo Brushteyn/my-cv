@@ -13,7 +13,7 @@ function Header() {
     <div className={s.Header}>
       <div className='container'>
         <div className={s.headerInner}>
-            <div className={s.burger} onClick={openMenu}>
+            <div className={`${s.burger} ${isActive ? `${s.burgerActive}` : ""}`} onClick={openMenu}>
                 <div className={s.burgerLine}></div>
                 <div className={s.burgerLine}></div>
                 <div className={s.burgerLine}></div>
