@@ -36,12 +36,9 @@ function Header() {
                       <button className={s.langBtn}>Ru /</button>
                       <button className={s.langBtn}>Eng</button>
                     </div>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv">Главная</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv/">Главная</NavLink>
                     <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv/about">Обо мне</NavLink>
                     <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv/portfolio">Портфолио</NavLink>
-                    {/* <a href="#main" className={s.navLink}>Главная</a>
-                    <a href="#about" className={s.navLink}>Обо мне</a>
-                    <a href="#portfolio" className={s.navLink}>Портфолио</a> */}
                 </nav>
             </div>
         </div>
