@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 function Header() {
 
-  const [isActive, setActive] = useState("false");
+  const [isActive, setActive] = useState(false);
 
   const openMenu = () => {
     setActive(!isActive);
