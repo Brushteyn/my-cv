@@ -1,5 +1,6 @@
 import s from './Header.module.scss';
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
 
@@ -35,9 +36,12 @@ function Header() {
                       <button className={s.langBtn}>Ru /</button>
                       <button className={s.langBtn}>Eng</button>
                     </div>
-                    <a href="#main" className={s.navLink}>Главная</a>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/">Главная</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/about">Обо мне</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/portfolio">Портфолио</NavLink>
+                    {/* <a href="#main" className={s.navLink}>Главная</a>
                     <a href="#about" className={s.navLink}>Обо мне</a>
-                    <a href="#portfolio" className={s.navLink}>Портфолио</a>
+                    <a href="#portfolio" className={s.navLink}>Портфолио</a> */}
                 </nav>
             </div>
         </div>

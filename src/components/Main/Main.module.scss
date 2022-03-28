@@ -1,4 +1,86 @@
+@import "../../App.scss";
+
 .Main {
-    height: 40px;
-    background-color: black;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 992px) {
+        height: unset;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .mainInner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+
+        .left {
+            max-width: 463px;
+            width: 100%;
+
+            @media (max-width: 992px) {
+                margin-bottom: 40px;
+            }
+
+            .title {
+                font-family: "Ubuntu", sans-serif;
+                font-size: 46px;
+
+                @media (max-width: 425px) {
+                    margin-bottom: 15px;
+                }
+            }
+
+            .subtitle {
+                font-family: "Ubuntu", sans-serif;
+                font-size: 32px;
+
+                .blueSpan {
+                    font-weight: 700;
+                    color: $blue;
+                }
+            }
+
+            .text {
+                margin: 35px 0;
+                color: $gray;
+                line-height: 1.7;
+            }
+
+            .mainBtn {
+                display: inline-block;
+                padding: 10px 25px;
+                background: #fff;
+                font-size: 14px;
+                border-radius: 12px;
+                min-width: 180px;
+                text-align: center;
+                border: 1px solid $blue;
+                color: $blue;
+                transition: .2s ease-in-out;
+                text-decoration: none;
+                transition: 0.3s;
+
+                &:hover {
+                    background: #0075ff;
+                    color: #fff;
+                    transition: 0.3s;
+                }
+            }
+        }
+
+        .right {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
 }
