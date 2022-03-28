@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `npm run deploy` fails to minify
 
-To deploy this project to github pages.
+To deploy this project to github pages..
