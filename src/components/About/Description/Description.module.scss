@@ -1,0 +1,31 @@
+@import "../../../App.scss";
+
+.description {
+  background: $blue;
+  padding: 70px 0 322px;
+
+  @media (max-width: 576px) {
+    padding-bottom: 240px;
+  }
+
+  .inner {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 755px;
+    width: 100%;
+
+    .title {
+      font-size: 36px;
+      line-height: 100%;
+      font-weight: 900;
+      color: $white;
+      margin-bottom: 20px;
+    }
+
+    .text {
+      font-size: 16px;
+      font-weight: 500;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@import "../../../App.scss";
+
+.skillBox {
+  display: flex;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+  background: #fcfcfc;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  margin-top: -200px;
+  margin-bottom: 100px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 33.3%;
+    text-align: center;
+    padding: 50px 30px;
+
+    @media (max-width: 992px) {
+      padding: 40px 20px;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    @media (max-width: 425px) {
+      padding: 20px 10px;
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid #e1e1e1;
+
+      @media (max-width: 768px) {
+        border-right: none;
+        border-bottom: 1px solid #e1e1e1;
+      }
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      height: 50px;
+      margin-bottom: 15px;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .text {
+      line-height: 24px;
+      font-weight: 300;
+      max-width: 305px;
+      width: 100%;
+      margin: 20px auto 40px;
+
+      @media (max-width: 425px) {
+        margin-bottom: 20px;
+      }
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+
+      .listTitle {
+        color: #0075ff;
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .listItem {
+        font-weight: 300;
+
+        &:not(:last-child) {
+          margin-bottom: 7px;
+        }
+      }
+    }
+  }
+}

@@ -22,13 +22,13 @@ function Header() {
             <div className={`${s.inner} ${isActive ? `${s.innerShow}` : ""}`}>
                 <div className={s.socials}>
                     <a target="_blank" rel="noreferrer" href="https://t.me/Timofey91" className={s.socialsLink}>
-                      <img src={require("../../img/telegram.svg").default} alt="Телеграм" />
+                      <img src={process.env.PUBLIC_URL + '/img/telegram.svg'} alt="Телеграм" />
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://github.com/Brushteyn" className={s.socialsLink}>
-                      <img src={require("../../img/git.svg").default} alt="GitHub" />
+                      <img src={process.env.PUBLIC_URL + '/img/git.svg'} alt="GitHub" />
                     </a>
                     <a href="mailto:brushteyntimofey@gmail.com" className={s.socialsLink}>
-                      <img src={require("../../img/gmail.svg").default} alt="Gmail" />
+                      <img src={process.env.PUBLIC_URL + '/img/gmail.svg'} alt="Gmail" />
                     </a>
                 </div>
                 <nav className={s.nav}>

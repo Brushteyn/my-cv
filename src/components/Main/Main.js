@@ -2,7 +2,7 @@ import s from './Main.module.scss';
 
 function Main() {
   return (
-    <div className={s.Main} id="main">
+    <div className={s.Main}>
       <div className='container'>
         <div className={s.mainInner}>
           <div className={s.left}>
@@ -14,7 +14,7 @@ function Main() {
             <div><a href="https://t.me/Timofey91" className={s.mainBtn}>Связаться со мной</a>
             </div>
           </div>
-          <div className={s.right}><img src={require("../../img/workspace.svg").default} alt="img" /></div>
+          <div className={s.right}><img src={process.env.PUBLIC_URL + '/img/workspace.svg'} alt="img" /></div>
         </div>
       </div>
     </div>
