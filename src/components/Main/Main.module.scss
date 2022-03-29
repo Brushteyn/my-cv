@@ -35,12 +35,17 @@
 
                 @media (max-width: 425px) {
                     margin-bottom: 15px;
+                    line-height: 120%;
                 }
             }
 
             .subtitle {
                 font-family: "Ubuntu", sans-serif;
                 font-size: 32px;
+
+                @media (max-width: 425px) {
+                    line-height: 100%;
+                }
 
                 .blueSpan {
                     font-weight: 700;

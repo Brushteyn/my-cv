@@ -10,6 +10,10 @@ function Header() {
     setActive(!isActive);
   }
 
+  const closeMenu = () => {
+    setActive(!isActive);
+  }
+
   return (
     <div className={s.Header}>
       <div className='container'>
@@ -36,9 +40,9 @@ function Header() {
                       <button className={s.langBtn}>Ru /</button>
                       <button className={s.langBtn}>Eng</button>
                     </div>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv/">Главная</NavLink>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv/about">Обо мне</NavLink>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} to="/my-cv/portfolio">Портфолио</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/">Главная</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/about">Обо мне</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/portfolio">Портфолио</NavLink>
                 </nav>
             </div>
         </div>
