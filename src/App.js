@@ -5,14 +5,14 @@ import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import {Routes, Route} from "react-router-dom";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Header />
       <Routes>
         <Route path='/my-cv' element={<Main />} />
         <Route path='/my-cv/About' element={<About />} />
-        <Route path='/my-cv/Portfolio' element={<Portfolio />} />
+        <Route path='/my-cv/Portfolio' element={<Portfolio posts={props.posts} />} />
       </Routes>
     </div>
   );
