@@ -9,6 +9,7 @@ function Header() {
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
+    setActive(!isActive);
   };
 
   const [isActive, setActive] = useState(false);
