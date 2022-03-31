@@ -1,9 +1,9 @@
 import s from './Portfolio.module.scss';
 
 function Portfolio(props) {
-  let allPosts = props.posts.map(function(item) {
+  let allPosts = props.posts.map(function(item, i) {
     return (
-      <div className={s.item}>
+      <div className={s.item} key={i}>
         <div className="container">
           <div className={s.inner}>
             <img src={item.img} alt="img" className={s.image}/>
@@ -33,5 +33,7 @@ function Portfolio(props) {
     </div>
   );
 }
+
+
 
 export default Portfolio;

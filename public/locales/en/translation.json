@@ -1,0 +1,60 @@
+{
+    "name": "Brushteyn Timofey",
+    "developer": "developer",
+    "mainText": "Fast and high-quality layout. I work with all types of tasks. I qualitatively and quickly analyze the task, give an accurate assessment, and keep a full report on the status of the task. I am loyal to changes/updates of TK in the process of layout.",
+    "mainBtn": "Contact with me",
+    "secondBtn": "View resume",
+    "navMain": "Main",
+    "navAbout": "About me",
+    "navPortfolio": "Portfolio",
+    "factAge": "Age, years",
+    "factInstruments": "Basic Tools",
+    "factProjects": "Developed projects",
+    "factExperience": "Work experience, years",
+    "descTitle": "Who am I and what do I do?",
+    "descText": "I'm a frontend developer/html coder. Commercial development experience almost 5 years. In recent years, i am worked on a large B2B project in the field of tourism, as a leading html coder. And in an esports site as a html coder / front-end developer.",
+    "skillFirst": {
+        "title": "Front end development",
+        "text": "Modern layout standards: block, cross-browser, fluid, adaptive.",
+        "listTitle": "I work with all types of tasks:",
+        "listItem1": "Creation of new pages/projects.",
+        "listItem2": "Writing scripts.",
+        "listItem3": "Update existing pages/projects.",
+        "listItem4": "Website redesign.",
+        "listItem5": "Website copying.",
+        "listItem6": "Adaptation for mobile devices.",
+        "listItem7": "Editing, adding content.",
+        "listItem8": "Developing applications with React/Redux."
+    },
+    "skillSecond": {
+        "title": "HTML/CSS/JS",
+        "text": "Fast and high-quality layout/development. Conforming to modern standards.",
+        "listTitle": "What technologies do I use:",
+        "listItem1": "HTML5/Pug/CSS3/Sass",
+        "listItem2": "React/Redux",
+        "listItem3": "Basic JS",
+        "listItem4": "Layout using Flexbox, Grid, BEM",
+        "listItem5": "Bootstrap 4",
+        "listItem6": "Valid and cross-browser layout",
+        "listItem7": "WebPack/Gulp",
+        "listItem8": "GitHub/GitLab",
+        "listItem9": "Photoshop/Figma"
+    },
+    "skillThird": {
+        "title": "Other skills",
+        "text": "I am interested in teamwork as it is important for me to always get knowledge from the people around me.",
+        "listTitle": "Qualities I have:",
+        "listItem1": "Responsibility.",
+        "listItem2": "Independence.",
+        "listItem3": "Commitment to development.",
+        "listItem4": "Adequate acceptance of criticism.",
+        "listItem5": "No bad habits.",
+        "listItem6": "English - B1."
+    },
+    "posts": {
+        "item1": {
+            "title": "My Amic",
+            "text": "Website development for the loyalty program and Amic discount cards in Ukraine."
+        }
+    }
+}

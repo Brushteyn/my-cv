@@ -1,8 +1,15 @@
 import s from './Header.module.scss';
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 function Header() {
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
 
   const [isActive, setActive] = useState(false);
 
@@ -37,12 +44,12 @@ function Header() {
                 </div>
                 <nav className={s.nav}>
                     <div className={s.langBtns}>
-                      <button className={s.langBtn}>Ru /</button>
-                      <button className={s.langBtn}>Eng</button>
+                      <button className={s.langBtn} onClick={() => changeLanguage("ru")} disabled={i18n.language === 'ru'}>Ru /</button>
+                      <button className={s.langBtn} onClick={() => changeLanguage("en")} disabled={i18n.language === 'en'}>Eng</button>
                     </div>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/">Главная</NavLink>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/about">Обо мне</NavLink>
-                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/portfolio">Портфолио</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/">{t("navMain")}</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/about">{t("navAbout")}</NavLink>
+                    <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/portfolio">{t("navPortfolio")}</NavLink>
                 </nav>
             </div>
         </div>
