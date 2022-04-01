@@ -10,7 +10,7 @@ function Portfolio() {
   return (
     <div className={styles.Portfolio}>
       <div className={styles.inner}>
-        <h3 className={styles.title}>Некоторые из моих работ:</h3>
+        <h3 className={styles.title}>{t("postsTitle")}</h3>
         <div className={styles.itemsWrapper}>
         {Object.entries(posts).map(
           (post, i) => (
