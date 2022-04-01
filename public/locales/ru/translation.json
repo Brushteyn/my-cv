@@ -51,8 +51,8 @@
         "listItem5": "Отсутствие вредных привычек.",
         "listItem6": "Английский язык - B1."
     },
-    "posts": [
-        {
+    "posts": {
+        "item1": {
             "id": 1,
             "img": "/my-cv/img/mockup-pantogam.png",
             "title": "My Amic",
@@ -63,7 +63,302 @@
                 "techno3": "Js"
             },
             "text": "Разработка сайта для программы лояльности и скидочных карт Amic в Украине.",
-            "link": "https://my.amicenergy.com.ua/index"
+            "url": "https://my.amicenergy.com.ua/index",
+            "btn": "Перейти на сайт"
+        },
+        "item2": {
+            "id": 2,
+            "img": "/my-cv/img/mockup-pantogam-2.png",
+            "title": "Landing",
+            "tags": {
+                "year": "2017",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Разработка лендинга для веб студии.",
+            "url": "https://brushteyn.github.io/landing/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item3": {
+            "id": 3,
+            "img": "/my-cv/img/mockup-pantogam-9.png",
+            "title": "Сайт Российского посольства в Китае",
+            "tags": {
+                "year": "2017",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Разработка сайта Российского посольства в Китае.",
+            "url": "http://www.russia.org.cn/en/",
+            "btn": "Перейти на сайт"
+        },
+        "item4": {
+            "id": 4,
+            "img": "/my-cv/img/mockup-pantogam-3.png",
+            "title": "Tech-Service",
+            "tags": {
+                "year": "2018",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Разработка лендинга для заказчика который занимается ремонтом бытовой техники.",
+            "url": "https://brushteyn.github.io/tehno-service/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item5": {
+            "id": 5,
+            "img": "/my-cv/img/mockup-pantogam-4.png",
+            "title": "Landing",
+            "tags": {
+                "year": "2018",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Landing page development for a web studio.",
+            "url": "https://brushteyn.github.io/template/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item6": {
+            "id": 6,
+            "img": "/my-cv/img/mockup-pantogam-5.png",
+            "title": "Momat Rino",
+            "tags": {
+                "year": "2018",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Разработка сайта рекламы препарата Момат Рино от насморка.",
+            "url": "https://brushteyn.github.io/momat-rino/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item7": {
+            "id": 7,
+            "img": "/my-cv/img/mockup-pantogam-6.png",
+            "title": "Walking Dead",
+            "tags": {
+                "year": "2018",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Разработка промосайта для нового сезона сериала Walking Dead.",
+            "url": "https://brushteyn.github.io/walking-dead/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item8": {
+            "id": 8,
+            "img": "/my-cv/img/mockup-pantogam-7.png",
+            "title": "Isec Management",
+            "tags": {
+                "year": "2019",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Landing page development for a web studio.",
+            "url": "https://brushteyn.github.io/isec/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item9": {
+            "id": 9,
+            "img": "/my-cv/img/mockup-pantogam-10.png",
+            "title": "TourHunter.com",
+            "tags": {
+                "year": "2019",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Мощная онлайн-платформа B2B, где поставщики туров и мероприятий могут торговать с агентами, привлекать и знакомиться с новыми партнерами по всему миру и получать больше онлайн-заказов.",
+            "url": "https://pro.tourhunter.com/",
+            "btn": "Перейти на сайт"
+        },
+        "item10": {
+            "id": 10,
+            "img": "/my-cv/img/mockup-pantogam-8.png",
+            "title": "Orangerie",
+            "tags": {
+                "year": "2020",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Разработка лендинга для оранжереи в Нью-Йорке.",
+            "url": "https://brushteyn.github.io/orangerie/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item11": {
+            "id": 11,
+            "img": "/my-cv/img/mockup-pantogam-11.png",
+            "title": "Resanta.ru",
+            "tags": {
+                "year": "2020",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "РЕСАНТА - лидер рынка сварочных инверторов и стабилизаторов напряжения в России.",
+            "url": "https://resanta.ru/",
+            "btn": "Перейти на сайт"
+        },
+        "item12": {
+            "id": 12,
+            "img": "/my-cv/img/mockup-pantogam-12.png",
+            "title": "Cents & Homes",
+            "tags": {
+                "year": "2020",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Cents'n'Homes - молодая Мюнхенская компания. Наша миссия - упростить инвестиции в недвижимость для людей во всей Европе.",
+            "url": "https://centsnhomes.com/ru",
+            "btn": "Перейти на сайт"
+        },
+        "item13": {
+            "id": 13,
+            "img": "/my-cv/img/mockup-pantogam-14.png",
+            "title": "Lan Game",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Игровой компьютерный клуб в 1000 кв.м. в центре Москвы.",
+            "url": "https://brushteyn.github.io/langame/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item14": {
+            "id": 14,
+            "img": "/my-cv/img/mockup-pantogam-13.png",
+            "title": "Watch Town",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Интернет магазин часов.",
+            "url": "https://brushteyn.github.io/watchtown/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item15": {
+            "id": 15,
+            "img": "/my-cv/img/mockup-pantogam-15.png",
+            "title": "ISEC Wealth Management",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Css",
+                "techno3": "Js"
+            },
+            "text": "Сайт для компании по предоставлению услуг в финансовой сфере.",
+            "url": "https://brushteyn.github.io/isec-management/index.html",
+            "btn": "Перейти на сайт"
+        },
+        "item16": {
+            "id": 16,
+            "img": "/my-cv/img/mockup-pantogam-16.png",
+            "title": "OOOGR",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Киберспортивная платформа для геймеров от геймеров.",
+            "url": "https://ooogr.com/",
+            "btn": "Перейти на сайт"
+        },
+        "item17": {
+            "id": 17,
+            "img": "/my-cv/img/mockup-pantogam-22.png",
+            "title": "IGM",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Сайт самого крупного игрового сообщества на просторах СНГ.",
+            "url": "https://igm.gg/",
+            "btn": "Перейти на сайт"
+        },
+        "item18": {
+            "id": 18,
+            "img": "/my-cv/img/mockup-pantogam-17.png",
+            "title": "mars.po.co",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Игра кликер созданная в честь выхода нового телефона компании РОСО.",
+            "url": "http://poco.igm.gg/",
+            "btn": "Перейти на сайт"
+        },
+        "item19": {
+            "id": 19,
+            "img": "/my-cv/img/mockup-pantogam-18.png",
+            "title": "Xiaomi 11T",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Серия игр созданная в честь выхода нового телефона компании Xiaomi.",
+            "url": "https://igm.gg/",
+            "btn": "Перейти на сайт"
+        },
+        "item20": {
+            "id": 20,
+            "img": "/my-cv/img/mockup-pantogam-21.png",
+            "title": "Call of Duty: Vanguard",
+            "tags": {
+                "year": "2021",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Промо сайт посвященный выходу игры Call of Duty: Vanguard и раздаче бета ключей.",
+            "url": "https://igm.gg/",
+            "btn": "Перейти на сайт"
+        },
+        "item21": {
+            "id": 21,
+            "img": "/my-cv/img/mockup-pantogam-19.jpg",
+            "title": "Fikselburg",
+            "tags": {
+                "year": "2022",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Самое крупное предприятие Ленинградской области в сфере производства металлоконструкций и металлообработки.",
+            "url": "http://fikselburg.ru/",
+            "btn": "Перейти на сайт"
+        },
+        "item22": {
+            "id": 22,
+            "img": "/my-cv/img/mockup-pantogam-20.png",
+            "title": "Poco",
+            "tags": {
+                "year": "2022",
+                "techno1": "Html",
+                "techno2": "Scss",
+                "techno3": "Js"
+            },
+            "text": "Промо игра посвященная выходу нового телефона компании Poco.",
+            "url": "https://poco-ace.igm.gg/",
+            "btn": "Перейти на сайт"
         }
-    ]
+    }
 }

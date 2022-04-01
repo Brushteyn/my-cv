@@ -80,6 +80,8 @@
         }
 
         .langBtns {
+          display: flex;
+          align-items: center;
           margin-right: 40px;
 
           @media (max-width: 768px) {
@@ -88,14 +90,18 @@
           }
 
           .langBtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: transparent;
-            border: none;
+            border: 1px solid $gray;
             outline: none;
-            padding: 2px;
+            padding: 0 4px;
             cursor: pointer;
-            font-size: 15px;            
+            font-size: 13px;            
             transition: 0.3s;
             color: $gray;
+            height: 25px;
 
             &.active {
               color: $black;
@@ -108,7 +114,12 @@
             }
 
             &:disabled {
+              border: 1px solid $black;
               color: $black;
+            }
+
+            &:first-child {
+              margin-right: 10px;
             }
           }
         }

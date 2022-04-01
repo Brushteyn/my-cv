@@ -45,7 +45,7 @@ function Header() {
                 </div>
                 <nav className={s.nav}>
                     <div className={s.langBtns}>
-                      <button className={s.langBtn} onClick={() => changeLanguage("ru")} disabled={i18n.language === 'ru'}>Ru /</button>
+                      <button className={s.langBtn} onClick={() => changeLanguage("ru")} disabled={i18n.language === 'ru'}>Ru</button>
                       <button className={s.langBtn} onClick={() => changeLanguage("en")} disabled={i18n.language === 'en'}>Eng</button>
                     </div>
                     <NavLink className={navData => navData.isActive ? s.navLinkActive + ' ' + s.navLink : s.navLink} onClick={closeMenu} to="/my-cv/">{t("navMain")}</NavLink>

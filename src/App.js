@@ -13,7 +13,7 @@ function App(props) {
       <Routes>
         <Route path='/my-cv' element={<Main />} />
         <Route path='/my-cv/About' element={<About />} />
-        <Route path='/my-cv/Portfolio' element={<Portfolio posts={props.posts} />} />
+        <Route path='/my-cv/Portfolio' element={<Portfolio />} />
       </Routes>
     </div>
   );
