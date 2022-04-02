@@ -8,11 +8,9 @@ import './i18n';
 
 ReactDOM.render(
   <Suspense fallback={<div>Loading...</div>}>
-    <React.StrictMode>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Suspense>,
   document.getElementById('root')
 );
