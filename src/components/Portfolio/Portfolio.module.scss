@@ -7,7 +7,7 @@
 
     .itemsWrapper {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
 
     .item {
@@ -17,7 +17,7 @@
         padding: 35px 0;
       }
 
-      &:not(:first-child) {
+      &:not(:last-child) {
         border-bottom: 1px solid #e1e1e1;
       }
 
@@ -121,6 +121,30 @@
             }
           }
         }
+      }
+    }
+
+    .loadMoreBtn {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 25px;
+      background: #fff;
+      font-size: 14px;
+      border-radius: 12px;
+      min-width: 180px;
+      text-align: center;
+      border: 1px solid #0075ff;
+      color: #0075ff;
+      transition: 0.2s ease-in-out;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      margin-bottom: 50px;
+
+      &:hover {
+        background: #0075ff;
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
