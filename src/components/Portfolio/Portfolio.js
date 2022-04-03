@@ -13,7 +13,7 @@ function Portfolio() {
   const loadMore = (e) => {
     setVisiblePosts(prevVisiblePosts => prevVisiblePosts + 4)
 
-    if(visiblePosts === 20) {
+    if(visiblePosts >= 20) {
       e.target.style.display = "none";
     };
   };
