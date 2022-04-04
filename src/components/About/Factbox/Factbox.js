@@ -12,7 +12,7 @@ function Factbox() {
           <span className={s.factName}>{t("factAge")}</span>
         </div>
         <div className={s.factItem}>
-          <span className={s.factValue}>React/Redux</span>
+          <span className={s.factValue}>HTML/CSS/JS</span>
           <span className={s.factName}>{t("factInstruments")}</span>
         </div>
         <div className={s.factItem}>
