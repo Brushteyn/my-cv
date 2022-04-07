@@ -23,22 +23,20 @@
         "listItem4": "Редизайн сайта.",
         "listItem5": "Копирование сайтов.",
         "listItem6": "Адаптация под мобильные устройства.",
-        "listItem7": "Правки, добавление контента.",
-        "listItem8": "Разработка приложений на React/Redux."
+        "listItem7": "Правки, добавление контента."
     },
     "skillSecond": {
         "title": "HTML/CSS/JS",
         "text": "Быстрая и качественная верстка/разработка. Соответствующая современным стандартам.",
         "listTitle": "Какие технологии я использую:",
         "listItem1": "HTML5/Pug/CSS3/Sass",
-        "listItem2": "React/Redux",
+        "listItem2": "Photoshop/Figma",
         "listItem3": "Базовый JS",
         "listItem4": "Верстка с использованием Flexbox, Grid, BEM",
         "listItem5": "Bootstrap 4",
         "listItem6": "Валидная и кроссбраузерная верстка",
         "listItem7": "WebPack/Gulp",
-        "listItem8": "GitHub/GitLab",
-        "listItem9": "Photoshop/Figma"
+        "listItem8": "GitHub/GitLab"
     },
     "skillThird": {
         "title": "Прочие навыки",

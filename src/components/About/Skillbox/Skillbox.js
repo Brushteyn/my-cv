@@ -22,7 +22,6 @@ function Skillbox() {
             <span className={s.listItem}>{t("skillFirst.listItem5")}</span>
             <span className={s.listItem}>{t("skillFirst.listItem6")}</span>
             <span className={s.listItem}>{t("skillFirst.listItem7")}</span>
-            <span className={s.listItem}>{t("skillFirst.listItem8")}</span>
           </div>
         </div>
         <div className={s.column}>
@@ -41,7 +40,6 @@ function Skillbox() {
             <span className={s.listItem}>{t("skillSecond.listItem6")}</span>
             <span className={s.listItem}>{t("skillSecond.listItem7")}</span>
             <span className={s.listItem}>{t("skillSecond.listItem8")}</span>
-            <span className={s.listItem}>{t("skillSecond.listItem9")}</span>
           </div>
         </div>
         <div className={s.column}>

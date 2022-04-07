@@ -23,22 +23,20 @@
         "listItem4": "Website redesign.",
         "listItem5": "Website copying.",
         "listItem6": "Adaptation for mobile devices.",
-        "listItem7": "Editing, adding content.",
-        "listItem8": "Developing applications with React/Redux."
+        "listItem7": "Editing, adding content."
     },
     "skillSecond": {
         "title": "HTML/CSS/JS",
         "text": "Fast and high-quality layout/development. Conforming to modern standards.",
         "listTitle": "What technologies do I use:",
         "listItem1": "HTML5/Pug/CSS3/Sass",
-        "listItem2": "React/Redux",
+        "listItem2": "Photoshop/Figma",
         "listItem3": "Basic JS",
         "listItem4": "Layout using Flexbox, Grid, BEM",
         "listItem5": "Bootstrap 4",
         "listItem6": "Valid and cross-browser layout",
         "listItem7": "WebPack/Gulp",
-        "listItem8": "GitHub/GitLab",
-        "listItem9": "Photoshop/Figma"
+        "listItem8": "GitHub/GitLab"
     },
     "skillThird": {
         "title": "Other skills",
